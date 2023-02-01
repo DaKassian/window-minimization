@@ -13,7 +13,7 @@ One such factor is the length of the edges in the drawing.
 Another factor is the window size, where the window of a node is the smallest interval, either x-interval or angular interval, whose image on the two curves contains both the position of the node and the position of its neighbors.
 
 In this thesis, we use two techniques to improve these factors:
-First, from a given drawing of a bipartite graph, we either move the nodes of one partition to the positions where the window size or edge length is minimal while keeping the other partition fixed or move the nodes in both partitions.
+From a given drawing of a bipartite graph, we either move the nodes of one partition to the positions where the window size or edge length is minimal while keeping the other partition fixed or move the nodes in both partitions.
 The former technique is, with restrictions, feasible, while the latter is \np-complete.
 
 After that, we introduce an unconventional way of visualizing bipartite graphs by placing the partitions on the boundaries of an annulus.
