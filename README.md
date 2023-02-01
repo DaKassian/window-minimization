@@ -7,7 +7,8 @@ Visualization of bipartite graphs in easy-to-read drawings is a challenging task
 Consider a network graph of international companies and all the countries they operate in.
 A large number of nodes affects legibility, so a good-looking drawing is required.
 We consider drawings in which the nodes of the two partitions are drawn on two separate curves; either two horizontal lines or two concentric circles.
-There are several factors that affect readability. On such factor is the length of the edges in the drawing.
+There are several factors that affect readability. 
+One such factor is the length of the edges in the drawing.
 
 Another factor is the window size, where the window of a node is the smallest interval, either x-interval or angular interval, whose image on the two curves contains both the position of the node and the position of its neighbors.
 
